@@ -23,7 +23,7 @@ function App() {
 
   
 
-  return <h1 style={styles}>My Second App. {`${message}`}</h1>;
+  return <h1 style={ }>My Second App. {`${message}`}</h1>;
 }
 
 export default App;
