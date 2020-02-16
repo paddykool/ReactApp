@@ -5,8 +5,8 @@ const jokeData = [
     },
     {
         id: 2,
-        expectation: "This is bad joke number 2",
-        punchLine: "This is the punch line for 2" 
+        expectation: "This is bad joke number 2222222222222222",
+        punchLine: "This is the punch line for 2222222222222222" 
     },
     {
         id: 3,
