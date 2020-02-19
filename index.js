@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./ToDoApp";
+import ToDoApp from "./ToDoApp";
 
 // JSX
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<ToDoApp />, document.getElementById("root"));
