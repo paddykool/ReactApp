@@ -6,7 +6,8 @@ class TodoItem extends Component {
     return (
       <div className="todo-item">
         <input 
-          onChange={()=> console.log("changed")} 
+          // onChange={()=> console.log("changed")}
+          onChange={() => this.props.onChangeHandler(this.props.item.id)} 
           type="checkbox" 
           checked={this.props.item.ticked}/>
         <p>{this.props.item.description}</p>
