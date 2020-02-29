@@ -5,7 +5,10 @@ class TodoItem extends Component {
   render() {
     return (
       <div className="todo-item">
-        <input type="checkbox" checked={this.props.item.ticked}/>
+        <input 
+          onChange={()=> console.log("changed")} 
+          type="checkbox" 
+          checked={this.props.item.ticked}/>
         <p>{this.props.item.description}</p>
       </div>
     );
